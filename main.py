@@ -4,4 +4,4 @@ print("va boshqalar")
 
 print("FIntechhub")
 
-print("salom dunyo")
+print("salom")
