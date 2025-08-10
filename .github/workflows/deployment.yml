@@ -17,5 +17,6 @@ jobs:
         password: ${{ secrets.SERVER_PASSWORD }}
         script: | 
           echo "connected server successfully" 
-          echo "processing deployment..."
+          cd /home/ci-cd-actions/birinchi-loyiha
+          git pull
           echo "Deployment successfully!"
